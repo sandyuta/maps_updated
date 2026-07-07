@@ -1,0 +1,43 @@
+/* wind-animation.css — styles for the wind animation controls & readout.
+   Place this file in the same css/ folder as your other stylesheets. */
+
+.wind-ctl {
+    background: rgba(255, 255, 255, 0.95);
+    padding: 8px 10px;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, .2);
+    font: 12px/1.3 Arial, sans-serif;
+    min-width: 220px;
+}
+
+.wind-ctl-row {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.wind-ctl button {
+    border: 1px solid #bbb;
+    background: #f5f5f5;
+    border-radius: 4px;
+    width: 30px;
+    height: 28px;
+    cursor: pointer;
+    font-size: 13px;
+    line-height: 1;
+}
+
+.wind-ctl button:hover {
+    background: #e8e8e8;
+}
+
+.wind-ctl input[type="range"] {
+    flex: 1;
+    accent-color: #2b7bd6;
+}
+
+.wind-ctl-label {
+    margin-top: 6px;
+    color: #333;
+    font-weight: bold;
+}
